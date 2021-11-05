@@ -64,6 +64,7 @@ M.config = function()
       ["/"] = { "<ESC><CMD>lua ___comment_gc(vim.fn.visualmode())<CR>", "Comment" },
     },
     mappings = {
+      [";"] = { "<cmd>Alpha<CR>", "Dashboard" },
       ["w"] = { "<cmd>w!<CR>", "Save" },
       ["q"] = { "<cmd>q!<CR>", "Quit" },
       ["/"] = { "<cmd>lua require('Comment').toggle()<CR>", "Comment" },
